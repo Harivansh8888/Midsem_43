@@ -5,11 +5,14 @@ class Test
 	public:
 		void details
 		{
-			string name;
+			string name,city;
 			cout<<"Hello"<<endl;
 			cout<<"Enter Your Name"<<endl;
 			cin>>name;
 			cout<<"Hii"<<" "<<name<,endl;//Printing a Greeting//
+			cout<<"Enter Your City"<<endl;
+			cin>>city;
+			cout<<"Okay, So you live in"<<" "<<city<<endl;//Printing City//
 		}
 };
 int main()
