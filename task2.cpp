@@ -14,12 +14,19 @@ class Student
 		cout<<"Enter Your Age"<<endl;
 		cin>>age;
 	}
+	void Rollno
+	{
+		int roll_no;
+		cout<<"Enter YOur Roll Number"<<endl;
+		cin>>roll_no;
+	}
 };
 int main()
 {
 	Student s1;
 	s1.Name();
 	s1.Age();
+	s1.Rollno();
 	return 0;
 }
 
